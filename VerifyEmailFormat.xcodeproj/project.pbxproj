@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0659E60F2ADE9C6000318E96 /* VerifyEmailFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 0659E60E2ADE9C6000318E96 /* VerifyEmailFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0659E6162ADEA17B00318E96 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0659E6152ADEA17B00318E96 /* Example.swift */; };
+		0659E6162ADEA17B00318E96 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0659E6152ADEA17B00318E96 /* Validator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0659E60B2ADE9C6000318E96 /* VerifyEmailFormat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VerifyEmailFormat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0659E60E2ADE9C6000318E96 /* VerifyEmailFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifyEmailFormat.h; sourceTree = "<group>"; };
-		0659E6152ADEA17B00318E96 /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		0659E6152ADEA17B00318E96 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 		0659E60D2ADE9C6000318E96 /* VerifyEmailFormat */ = {
 			isa = PBXGroup;
 			children = (
-				0659E6152ADEA17B00318E96 /* Example.swift */,
+				0659E6152ADEA17B00318E96 /* Validator.swift */,
 				0659E60E2ADE9C6000318E96 /* VerifyEmailFormat.h */,
 			);
 			path = VerifyEmailFormat;
@@ -133,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0659E6162ADEA17B00318E96 /* Example.swift in Sources */,
+				0659E6162ADEA17B00318E96 /* Validator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
