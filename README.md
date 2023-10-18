@@ -1,2 +1,0 @@
-# VerifyEmailFormat
-Validate to email 
