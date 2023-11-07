@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "16.1"
   spec.source       = { :git => "https://github.com/devlove1C/VerifyEmailFormat.git", :tag =>spec.version.to_s}
   
-  spec.source_files  = "VerifyEmailFormat/**/*.{swift}"
+  spec.source_files  = "VerifyEmailFormat/**/*.{swift}", "README.md"
   spec.swift_version = "5.0"
 end
